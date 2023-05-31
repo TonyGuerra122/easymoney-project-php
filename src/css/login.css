@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.corpo{
+    background-color: rgb(226, 231, 235);
+}
+
+.form-header{
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.box{
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 14%;
+    width: 40%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.form-header img{
+    width: 20%;
+    height: 20%;
+}
+
+.form-input{   
+    padding-top: 2%;
+}
+
+.form-input input{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 80%;
+    text-align: center;
+    border: 20%;   
+    font-size: larger;     
+}
+
+.form-pass{
+    padding-top: 10%;
+}
+
+.form-pass input{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 80%;
+    text-align: center;
+    font-size: larger;
+}
+
+.form-footer{
+    text-align: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.submit input{
+    text-align: center;
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    width: 30%;
+    background-color: rgb(103, 206, 224);
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-gif{
+    padding-right: 10%;
+    padding-top: 7%;
+    float: right;
+}
+
+.form-gif img{
+    width: 120%;
+}
+
+.email{
+    text-align: center;
+}

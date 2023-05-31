@@ -1,0 +1,132 @@
+.corpo{
+    background-color: rgb(226, 231, 235);
+}
+
+.cadastrar{
+    height: 600px;
+}
+
+.fade-in-image { 
+    animation: fadeIn 1s;
+}
+
+.txt {
+    position: absolute;
+    animation: fadeIn 5s;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+.fade-in-image img{
+    width: 8%;
+    height: 5%;
+    margin-left: 2%;
+} 
+
+@keyframes go-back {
+    0% {
+        transform: translateX(-1000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes movimento{
+    0% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.cadastre{
+    position: absolute;
+    animation: go-back 2s;
+}
+
+.cadastre img{
+    margin-top: 50%;
+    margin-left: 55%;
+    width: 45%;
+}
+
+.foto1{
+    animation: movimento 1s;
+    float: right;
+}
+.foto1 img{
+    animation: fadeIn 1s;   
+    border-radius: 25px;
+    float: right;
+    margin-right: 3%;
+    width: 40%;
+    height: 40%;
+}
+
+.chat1{
+    position: absolute;
+    animation: movimento 1s;
+}
+.chat1 img{
+    animation: fadeIn 1s;  
+    float: right;
+    margin-right: 27%;
+    width: 20%;
+    height: 10%;
+}
+
+.chat2{
+    position: absolute;
+    animation: movimento 1.5s;
+
+}
+.chat2 img{
+    animation: fadeIn 1s;  
+    float: right;
+    margin-top: 6.5%;
+    margin-right: 22%;
+    width: 20%;
+    height: 10%;
+}
+
+.chat3{
+    position: absolute ;
+    animation: movimento 2s;
+}
+.chat3 img{
+    animation: fadeIn 1s;  
+    margin-right: 27%;
+    float: right;
+    margin-top: 12%;
+    width: 20%;
+    height: 10%;
+}
+
+
+.rank1 {
+    padding-left: 2%;
+}
+
+.card{
+    height: 20px;
+}
+
+.card img{
+    height: 100px;
+}
+
+.images{
+    width: 30%;
+    height: 20%;
+}
+
+.footer{
+    padding-top: 2%;
+}
