@@ -1,4 +1,5 @@
 <link href="/easymoney/src/css/sidebar.css" rel="stylesheet">
+<link href="/easymoney/src/css/navbar.css" rel="stylesheet">
 <script src="/easymoney/src/js/sidebar.js"></script>
 <header class="p-3 text-bg-dark">
   <div class="container">
@@ -27,9 +28,10 @@
         <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
       </form>
       <div id="login">
-        <button id="logout">Sair</button>
+        <p id="username"></p>
+          <button class="btn btn-secondary " id="logout">Sair</button>
         <div id="sem-login">
-          <a href="/easymoney/Views/login/"><button class="btn btn-secondary " type="button">Login</button></a>
+          <a href="/easymoney/Views/login/"><button class="btn btn-secondary" type="button">Login</button></a>
 
           <a href=#><button class="btn btn-secondary " type="button">Faz o L</button></a>
         </div>
