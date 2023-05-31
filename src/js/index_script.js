@@ -12,9 +12,7 @@ $(document).ready(function(){
         if(data == true){
             $('#sem-login').hide();
             requester.getRequest("getName").then((data) =>{
-                $('#login').append(`
-                <p>${data}</p>
-                `);
+                $("#username").html(data);
             })
         }
     })

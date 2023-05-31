@@ -1,0 +1,9 @@
+#login{
+    display: flex;
+    flex-direction: row;
+}
+
+#username{
+    margin-right: 20%;
+    margin-top: 16%;
+}
