@@ -17,4 +17,11 @@ $(document).ready(function(){
         }
     })
     $('#logout').on('click', logout)
+    $("#faz-o-l").on('click', function(){
+        Swal.fire(
+            'Fez o L',
+            'O L foi feito e não pode ser desfeito!',
+            'success'
+        )
+    })
 })

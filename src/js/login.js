@@ -5,7 +5,7 @@ $(document).ready(function(){
         requester = new Requester("login", "POST");
         requester.getRequest("login", formData).then((data) =>{
             if(data == true){
-                window.location.href = "/easymoney/";
+                window.location.href = "/";
             }else{
                 Swal.fire(
                     'Erro',

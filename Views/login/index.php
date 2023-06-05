@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="icon" type="image/jpg" href="/easymoney/assets/images/Logo_easy.png">
-    <link href="/easymoney/src/css/login.css" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="/assets/images/Logo_easy.png">
+    <link href="/src/css/login.css" rel="stylesheet">
 </head>
 
 <body class="corpo">
     <header class="form-header">
-        <img src="/easymoney/assets/images/easymoney_login.png" alt="EASYMONEY">
+        <img src="/assets/images/easymoney_login.png" alt="EASYMONEY">
     </header>
     <div class="form-gif">
-        <img src="/easymoney/assets/images/banner/gif.gif" alt="">
+        <img src="/assets/images/banner/gif.gif" alt="">
     </div>
     <div class="container">
         <form class="box" id="login">
@@ -38,10 +38,10 @@
     </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="/easymoney/src/js/Requester.js"></script>
-    <script src="/easymoney/src/js/login.js"></script>
+    <script src="../../src/js/jquery.js"></script>
+    <script src="../../src/js/Requester.js"></script>
+    <script src="../../src/js/login.js"></script>
 
 </body>
 

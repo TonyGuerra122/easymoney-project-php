@@ -9,8 +9,8 @@ class Conn{
     {
         $this->host = "localhost";
         $this->dbname = "easymoney";
-        $this->user = "root";
-        $this->password = "";
+        $this->user = "easymoney";
+        $this->password = "lI@3GSBX";
     }
     private function Pdo(){
         try{

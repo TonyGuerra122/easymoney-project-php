@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once($_SERVER['DOCUMENT_ROOT'] . "/easymoney/Models/Conn.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/Configs/Conn.php");
 class User{
     protected $id;
     protected $name;

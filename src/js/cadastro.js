@@ -11,7 +11,7 @@ $(document).ready(function(){
                     'success'
                 ).then((result) =>{
                     if(result.isConfirmed){
-                        window.location.href = "/easymoney/Views/login/"
+                        window.location.href = "./Views/login/"
                     }
                 })
             }else{

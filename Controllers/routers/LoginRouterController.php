@@ -1,12 +1,12 @@
 <?php
-require($_SERVER['DOCUMENT_ROOT'] . "/easymoney/Controllers/LoginControl.php");
+require($_SERVER['DOCUMENT_ROOT'] . "/Controllers/LoginController.php");
 class LoginRouterController{
     public static function get($url, $callback){
         if(isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] ==  "GET"){
             if($_GET['action'] == $url){
                 $email = isset($_SESSION['email']) ? $_SESSION['email'] : null;
                 $password = isset($_SESSION['password']) ? $_SESSION['password'] : null;
-                $loginControl = new LoginControl($email, $password);
+                $loginControl = new LoginController($email, $password);
                 $callback($loginControl->$url());
             }
         }
@@ -17,9 +17,9 @@ class LoginRouterController{
                 if(isset($_POST['email']) && isset($_POST['password']) || isset($_SESSION['email']) && isset($_SESSION['password'])){
                     $email = isset($_POST['email']) ? $_POST['email'] : $_SESSION['email'];
                     $password = isset($_POST['password']) ? $_POST['password'] : $_SESSION['password'];
-                    $loginControl = new LoginControl($email, $password);
+                    $loginControl = new LoginController($email, $password);
                 }else{
-                    $loginControl = new LoginControl;
+                    $loginControl = new LoginController;
                 }
                 $callback($loginControl->$url());
             }
