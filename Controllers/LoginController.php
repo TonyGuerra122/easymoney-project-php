@@ -1,6 +1,6 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'] . "/easymoney/Models/User.php");
-class LoginControl extends User
+require_once($_SERVER['DOCUMENT_ROOT'] . "/Models/User.php");
+class LoginController extends User
 {
     private $checked;
 

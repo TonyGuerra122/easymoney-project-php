@@ -3,7 +3,7 @@ class Requester{
     _method;
 
     constructor(url, method){
-        this._url = `/easymoney/routers/${url}Router.php?action=`;
+        this._url = `/routers/${url}Router.php?action=`;
         this._method = method;
     }
 
