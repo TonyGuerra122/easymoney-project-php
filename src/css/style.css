@@ -21,12 +21,7 @@
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
-  
-.fade-in-image img{
-    width: 8%;
-    height: 5%;
-    margin-left: 2%;
-} 
+
 
 @keyframes go-back {
     0% {
@@ -59,25 +54,27 @@
 
 .foto1{
     animation: movimento 1s;
-    float: right;
 }
+
 .foto1 img{
-    animation: fadeIn 1s;   
-    border-radius: 25px;
+    padding-top: 2%;
+    animation: fadeIn 1s;
     float: right;
-    margin-right: 3%;
-    width: 40%;
-    height: 40%;
+    border-radius: 25px;
+    width: 35%;
+    height: 35%;
 }
 
 .chat1{
     position: absolute;
     animation: movimento 1s;
 }
+
 .chat1 img{
     animation: fadeIn 1s;  
     float: right;
-    margin-right: 27%;
+    margin-right: 27vw;
+    padding-top: 1%;
     width: 20%;
     height: 10%;
 }
@@ -85,13 +82,13 @@
 .chat2{
     position: absolute;
     animation: movimento 1.5s;
-
 }
+
 .chat2 img{
     animation: fadeIn 1s;  
     float: right;
-    margin-top: 6.5%;
-    margin-right: 22%;
+    padding-top: 6.5%;
+    margin-right: 27vw;
     width: 20%;
     height: 10%;
 }
@@ -100,18 +97,14 @@
     position: absolute ;
     animation: movimento 2s;
 }
+
 .chat3 img{
     animation: fadeIn 1s;  
-    margin-right: 27%;
     float: right;
-    margin-top: 12%;
+    padding-top: 12%;
+    margin-right: 27vw;
     width: 20%;
     height: 10%;
-}
-
-
-.rank1 {
-    padding-left: 2%;
 }
 
 .card{
@@ -129,4 +122,21 @@
 
 .footer{
     padding-top: 2%;
+}
+
+.rank1 {
+    padding-left: 2%;
+}
+
+
+.sobre{
+    padding-top: 2%;
+    margin-left: 10%;
+}
+
+.paragrafo{
+    font-size: medium;
+    padding-top: 3%;
+    margin-left: 10%;
+    width: 80vw;
 }

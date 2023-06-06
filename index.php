@@ -9,11 +9,10 @@
   <link rel="icon" type="image/jpg" href="./assets/images/Logo_easy.png">
   <link href="./src/css/style.css" rel="stylesheet">
   <link href="./src/css/bootstrap.css" rel="stylesheet">
-  <link href="./src/css/sidebar.css" rel="stylesheet">
+  <link href="./src/css/navbar.css" rel="stylesheet">
 </head>
 <header>
   <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/navbar.php") ?>
-  <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/sidebar.php") ?>
 </header>
 
 <body class="corpo">
@@ -59,12 +58,6 @@
       </div>
     </div>
   </section>
-  <footer class="footer">
-    <a href="">Suporte</a>
-    <a href="">SOCORROOO</a>
-    <a href="">arooz</a>
-    <a href="">Joao</a>
-  </footer>
   <script src="./src/js/jquery.js"></script>
   <script src="./src/js/bootstrap.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

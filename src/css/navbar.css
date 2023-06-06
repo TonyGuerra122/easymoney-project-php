@@ -3,7 +3,20 @@
     flex-direction: row;
 }
 
-#username{
-    margin-right: 20%;
-    margin-top: 16%;
+.username{
+    padding-top: 18%;
+}
+
+.container{
+    position: relative;
+}
+
+.login{
+    display: flex;
+    padding-left: 65%;
+    float: right;
+}
+
+#logout{
+    margin-left: 15%;
 }
