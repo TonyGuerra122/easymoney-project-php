@@ -12,7 +12,7 @@
 
 <body class="corpo">
     <header class="form-header">
-        <img src="/assets/images/easymoney_login.png" alt="EASYMONEY">
+        <a href="https://easymoney.faex.edu.br"><img src="../../assets/images/easymoney_login.png" alt="EASYMONEY"></a>
     </header>
     <div class="form-gif">
         <img src="/assets/images/banner/gif.gif" alt="">

@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $("#logout").hide();
     const logout = async () =>{
         await requester.getRequest("logout").then((data) =>{
             if(data == true){
@@ -11,6 +12,7 @@ $(document).ready(function(){
     requester.getRequest("getChecked").then((data) => {
         if(data == true){
             $('#sem-login').hide();
+            $("#logout").show();
             requester.getRequest("getName").then((data) =>{
                 $("#username").html(data);
             })

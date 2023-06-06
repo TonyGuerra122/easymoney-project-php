@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="icon" type="image/jpg" href="./assets/images/Logo_easy.png">
-    <link href="./src/css/cadastro.css" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="../../assets/images/Logo_easy.png">
+    <link href="../../src/css/cadastro.css" rel="stylesheet">
 </head>
 
 <body class="corpo">
     <header class="form-header">
-        <img src="./assets/images._login.png" alt="EASYMONEY">
+        <a href="https://easymoney.faex.edu.br"><img src="../../assets/images/easymoney_login.png" alt="EASYMONEY"></a>
     </header>
     <div class="form-gif">
-        <img src="./assets/images/sonocomputer.gif" alt="">
+        <img src="../../assets/images/sonocomputer.gif" alt="">
     </div>
     <div class="container">
         <form class="box" id="add-user">
@@ -43,8 +43,8 @@
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="./src/js/Requester.js"></script>
-    <script src="./src/js/cadastro.js"></script>
+    <script src="../../src/js/Requester.js"></script>
+    <script src="../../src/js/cadastro.js"></script>
 
 </body>
 

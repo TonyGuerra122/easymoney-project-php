@@ -22,6 +22,9 @@ class LoginController extends User
     {
         return $this->checked;
     }
+    public function getId(){
+        return $this->id;        
+    }
     public function logout(){
         session_destroy();
         return true;

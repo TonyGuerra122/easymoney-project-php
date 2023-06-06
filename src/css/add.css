@@ -1,0 +1,15 @@
+.corpo{
+    background-color: rgb(226, 231, 235);
+    
+}
+.box{
+    position: absolute;
+    margin-left: 5vw;
+    margin-top: 2%;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+

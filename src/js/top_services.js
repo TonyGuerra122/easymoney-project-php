@@ -5,16 +5,15 @@ $(document).ready(function () {
 
         for (let i = 0; i < data.length; i++) {
             $('#top5_services').append(`
-                <div class="col">
-                <div class="card">
-                    <img src="/assets/images/ts.png" class="card-img-top" alt="...">
+                <div class="card" style="width: 18rem; margin-right: 20px; margin-top: 20px; 
+                                    margin-bottom: 5rem; height: 15rem; align-items: center;">
                     <div class="card-body">
-                        <h5 class="card-title">${data[i].title} |<img class="images" src="./assets/images/star.png" alt=""></h5>
+                        <h5 class="card-title">${data[i].title}</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">R$${data[i].valor}</h6>
                         <p class="card-text">${data[i].descricao}</p>
-                        <a href="#" class="btn btn-primary">Ver serviço</a>
-                    </div>
-                </div>
-                </div>
+                        </div>
+                        <a class="btn btn-info" style="width: 5rem; margin-bottom:1rem;">Info</a>
+                </div>    
             `)
         }
     })
