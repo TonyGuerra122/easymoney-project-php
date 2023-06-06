@@ -4,6 +4,10 @@ ServicesRouterController::post("addService", function($e){
     header("Content-Type: application/json; charset='UTF8'", true);
     echo json_encode($e);
 });
+ServicesRouterController::post("addProposal", function($e){
+    header("Content-Type: application/json; charset='UTF8'", true);
+    echo json_encode($e);
+});
 ServicesRouterController::get("getTopFiveService", function($e){
     echo json_encode($e);
 });

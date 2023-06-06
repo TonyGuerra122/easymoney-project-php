@@ -4,6 +4,7 @@ $(document).ready(function(){
         let formData = $(this).serialize();
         requester = new Requester("login", "POST");
         requester.getRequest("addUser", formData).then((data) =>{
+            console.log(data);
             if(data == true){
                 Swal.fire(
                     'Sucesso',
@@ -11,7 +12,7 @@ $(document).ready(function(){
                     'success'
                 ).then((result) =>{
                     if(result.isConfirmed){
-                        window.location.href = "./Views/login/"
+                        window.location.href = "https://easymoney.faex.edu.br/Views/login/?page_action=new_login";
                     }
                 })
             }else{
@@ -21,6 +22,8 @@ $(document).ready(function(){
                     'error'
                 )
             }
+        }).catch((error) =>{
+            console.error(error)
         })
     })
 })

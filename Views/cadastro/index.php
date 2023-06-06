@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Cadastro</title>
     <link rel="icon" type="image/jpg" href="../../assets/images/Logo_easy.png">
     <link href="../../src/css/cadastro.css" rel="stylesheet">
 </head>
@@ -41,7 +41,7 @@
         </form>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../../src/js/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../../src/js/Requester.js"></script>
     <script src="../../src/js/cadastro.js"></script>
