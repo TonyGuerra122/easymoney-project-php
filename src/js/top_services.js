@@ -12,9 +12,21 @@ $(document).ready(function () {
                         <h6 class="card-subtitle mb-2 text-body-secondary">R$${data[i].valor}</h6>
                         <p class="card-text">${data[i].descricao}</p>
                         </div>
-                        <a class="btn btn-info" style="width: 5rem; margin-bottom:1rem;">Info</a>
+                        <button onclick="getData('${data[i].title}', '${data[i].descricao}', '${data[i].valor}', '${data[i].contratante}')" class="btn btn-info" style="width: 5rem; margin-bottom:1rem;">Info</button>
                 </div>    
             `)
         }
     })
 })
+
+function getData(title, description, value, accountant){
+    Swal.fire({
+        title: `Título: ${title}`,
+        icon: 'info',
+        html: 
+        `Valor: R$${value} <br>
+        Descrição: ${description} <br>
+        Contratante: ${accountant}
+        `
+    })
+}

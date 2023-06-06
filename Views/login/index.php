@@ -15,7 +15,7 @@
         <a href="https://easymoney.faex.edu.br"><img src="../../assets/images/easymoney_login.png" alt="EASYMONEY"></a>
     </header>
     <div class="form-gif">
-        <img src="/assets/images/banner/gif.gif" alt="">
+        <img src="../../assets/images/worker.gif" alt="">
     </div>
     <div class="container">
         <form class="box" id="login">

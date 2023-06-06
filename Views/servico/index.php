@@ -46,6 +46,7 @@
   </section>
   <script src="../../src/js/bootstrap.js"></script>
   <script src="../../src/js/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="https://cdn.datatables.net/v/dt/dt-1.13.4/datatables.min.js"></script>
   <script src="../../src/js/Requester.js"></script>
   <script src="../../src/js/sidebar.js"></script>

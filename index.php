@@ -37,9 +37,9 @@
     </div>
 
     <div class="cadastre">
-      <a href="./Views/cadastro/">
+      <button id="cadastrar" style="background-color: transparent;border: 0;" href="./Views/cadastro/">
         <img src="./assets/images/botao_cadastrar.png" alt="">
-      </a>
+      </button>
     </div>
 
     <div>
